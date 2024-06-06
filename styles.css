@@ -1,13 +1,22 @@
 body {
+    /* Importing Font into body class */
     font-family: "Happy Monkey", system-ui;
     font-weight: 400;
     font-style: normal;
-    
-    text-align: center;
+
+    /* Align text in center of page and set color */    
+    text-align: center; 
+    color: #ffff;
+    background-color: #a2d2ff;
 }
 
 #friend-img {
-    width: 150px;
-    border: 5px solid red;
+    width: 225px;
     border-radius: 50%;
+    border: 6px inset #EFB0C9;
+
+}
+
+.shadow {
+    text-shadow: 1px 13px 1px black;
 }
