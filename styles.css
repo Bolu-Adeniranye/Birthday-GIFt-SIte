@@ -46,9 +46,14 @@ body {
     border-radius: 5px;
 }
 
+/* Gift Section Margin set */
+
 .gift-section {
-    margin-top: 10px;
+    margin-top: 50px;
 }
+
+/* Image width and margin set */
 .gift-cover {
+    margin-top: 40px;
     width: 400px;
 }
