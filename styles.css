@@ -5,7 +5,7 @@ body {
     font-style: normal;
 
     /* Align text in center of page and set color */    
-    text-align: center; 
+    text-align: center;
     color: #ffff;
     background-color: #a2d2ff;
 }
@@ -13,10 +13,31 @@ body {
 #friend-img {
     width: 225px;
     border-radius: 50%;
-    border: 6px inset #EFB0C9;
+    border: 6px inset #efb0c9;
 
 }
 
-.shadow {
-    text-shadow: 1px 13px 1px black;
+/* Header Div now a flexbox to align all items in it */
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Age tag CSS: Margin; Background; Padding; Border*/
+#age {
+    margin-top: 24px;
+    margin-bottom: 17px;
+    background-color: #efb0c9;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Date of Birth tag CSS: Margin; Background; Padding; Border*/
+#d-o-b {
+    margin: 0;
+    background-color: #efb0c9;
+    padding: 5px;
+    border-radius: 5px;
 }
