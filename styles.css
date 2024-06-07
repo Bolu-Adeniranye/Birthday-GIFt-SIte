@@ -55,6 +55,7 @@ body {
 /* Image width and margin set */
 .gift-img {
     margin-top: 40px;
+    margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
     width: 400px;
@@ -65,4 +66,28 @@ body {
 
 #happy-gif:hover {
     background-image: url("./tenor.gif");
+    background-size:cover;
+}
+
+#yeah-gif:hover {
+    background-image: url("./YEAH.gif");
+
+}
+
+#genius-gif:hover {
+    background-image: url("./genius.gif");
+}
+
+#badass-gif:hover {
+    background-image: url("./badass.gif");
+
+}
+
+#cheers-gif:hover {
+    width: 100%;
+    background-image: url("./cheers.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+
 }
