@@ -7,7 +7,7 @@ body {
     /* Align text in center of page and set color */    
     text-align: center;
     color: #ffff;
-    background-color: #a2d2ff;
+    background: linear-gradient(rgba(129, 34, 129, 0.726), rgba(36, 30, 107, 0.719));
 }
 
 #friend-img {
@@ -60,6 +60,7 @@ body {
     margin-right: auto;
     width: 400px;
     height: 400px;
+    /* background: linear-gradient(rgb(9, 131, 207), rgba(119, 116, 116, 0.24)); */
     background-image: url("./gift.png");
     background-size: contain;
 }
@@ -93,7 +94,6 @@ body {
 }
 
 footer {
-    width: 400px;
     font-style: italic;
     font-size: 25px;
     margin-top: 40px;
